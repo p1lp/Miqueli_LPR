@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bukee</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand: wght @ 3808 display = swap " rel=" stylesheet ">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f5a7d0cc79.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header_nav">
+            <div class="wrap header__wrap">
+                <a href="#" class="logo"><img src="img/Logo.png" alt=""></a>
+                <nav>
+                    <ul class="nav">
+                        <li class="nav__item"><a href="#" class="nav__link nav__link--active">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Contents</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Books</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Clients</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header__intro">
+            <div class="wrap">
+                <div class="block-intro">
+                    <div class="block-book">
+                        <h2 class="block-book__title">GOOD BOOK</h2>
+                        <p class="block-book__subtitle">Don't judge a book by its cover</p>
+                        <p class="block-book__author">- By Emma Anderson</p>
+                    </div>
+                    <div class="block-desc">
+                        <p class="block-desc__author">- By Emma Anderson</p>
+                        <h1 class="block-desc__title">BUKEE: THE BOOK</h1>
+                        <p class="block-desc__subtitle">A room without a book is like a body without a soul</p>
+                        <p class="block-desc__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam velit repudiandae consequatur! Perferendis beatae nisi, tempore architecto deleniti facere delectus soluta? Exercitationem dicta, nihil dolores molestiae vitae ex expedita?</p>
+                        <p class="block-desc__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis blanditiis temporibus hic doloremque illo, repudiandae tempora sapiente. Autem ab voluptas vitae explicabo quam, sed soluta esse, cupiditate quis aliquid vero!</p>
+                        <a href="#" class="btn block-desc__btn">Buy this book - $15.00</a>
+                        <p class="block-desc__small">* Some conditions may applicable</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="block">
+        <div class="wrap">
+            <div class="block-author">
+                <div class="block-info">
+                    <p class="block-info__author">- Book Author</p>
+                    <h2 class="block-info__title">Emma Anderson</h2>
+                    <p class="block-info__subtitle">A room without books is like a body without a soul</p>
+                    <p class="block-info__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, commodi repudiandae alias voluptatem enim beatae culpa accusamus molestiae ea eius ut quae facilis voluptates, qui quasi vel pariatur perferendis assumenda.</p>
+                    <p class="block-info__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur cupiditate accusantium neque tempore aliquam maiores repudiandae, corrupti ab soluta nesciunt distinctio voluptates perferendis, animi perspiciatis nobis et minima tempora praesentium?</p>
+                    <a href="#" class="btn block-info__btn">Read full biography</a>
+                </div>
+                <div class="block-ava">
+                    <div class="block-ava__bg"></div>
+                    <div class="block-ava__img"><img src="img/author.png" alt="author"></div>
+                </div>
+            </div>
+            <div class="block-counter">
+                <p class="block-counter__item"><span class="block-counter__digit">12</span>Total published books</p>
+                <p class="block-counter__item"><span class="block-counter__digit">5</span>Happy readers</p>
+                <p class="block-counter__item"><span class="block-counter__digit">15,000</span>Happy readers</p>
+            </div>
+        </div>
+    </section>
+    <section class="block block--gray">
+        <div class="wrap">
+            <h2 class="block__title">Book Contents</h2>
+            <p class="block__subtitle">Let's see what we have covered in the book</p>
+            <div class="block-contents">
+                <div class="block-about">
+                    <h3 class="block-about__title">About the book</h3>
+                    <p class="block-about__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali qua. Ut enim ad minim veniam, quis nostrud exercitation ull amco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu m dolore eu fugiat nulla pariatur.
+                    </p>
+                    <div class="block-about__feature">
+                        <h4 class="block-about__icon-title">Featured in:</h4>
+                        <ul class="block-about__icon-list">
+                            <li class="block-about__icon-item"><i class="fab fa-stack-overflow"></i></li>
+                            <li class="block-about__icon-item"><i class="fab fa-amazon"></i></li>
+                            <li class="block-about__icon-item"><i class="fab fa-sass"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block-table">
+                    <h3 class="block-table__table">Table of contents</h3>
+                    <ol class="block-table__list">
+                        <li class="block-table__item">Lorem ipsum dolor sit amet</li>
+                        <li class="block-table__item">Consectetur adipisicing elit</li>
+                        <li class="block-table__item">Consectetur adipisicing elit</li>
+                        <li class="block-table__item">Consectetur adipisicing elit</li>
+                        <li class="block-table__item">Consectetur adipisicing elit</li>
+                        <li class="block-table__item">Consectetur adipisicing elit</li>
+                        <li class="block-table__item">Consectetur adipisicing elit</li>
+                        <li class="block-table__item">Consectetur adipisicing elit</li>
+                        <li class="block-table__item">Consectetur adipisicing elit</li>
+                        <li class="block-table__item">Consectetur adipisicing elit</li>
+                    </ol>
+                    <a href="#" class="btn block-table__btn">More</a>
+                </div>
+            </div>
+    </section>
+    <section class="block">
+        <div class="wrap">
+            <h2 class="block__title">Other Books</h2>
+            <p class="block__subtitle">Some books you might be interested in</p>
+            <div class="block-lib">
+                <div class="block-lib__item">
+                    <div class="book-preview">
+                        <h3 class="book-preview__title">Inception</h3>
+                        <p class="book-preview__subtitle">Books are the best friends</p>
+                        <p class="book-preview__author">- By Emma Anderson</p>
+                    </div>
+                    <h4 class="block-lib__title">Inception</h4>
+                    <p class="block-lib__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro cumque ullam illo illum consequuntur iusto, magnam sunt vel? Enim earum accusantium expedita, aut corporis magnam porro vero incidunt molestias! Quisquam?</p>
+                    <a href="#" class="block-lib__link">READ MORE</a>
+                </div>
+                <div class="block-lib__item">
+                    <div class="book-preview">
+                        <h3 class="book-preview__title">Fight Club</h3>
+                        <p class="book-preview__subtitle">Books are the best friends</p>
+                        <p class="book-preview__author">- By Emma Anderson</p>
+                    </div>
+                    <h4 class="block-lib__title">Fight Club</h4>
+                    <p class="block-lib__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptate similique, ab magnam et aspernatur quo, ipsam velit quae, perferendis cum. Repudiandae doloremque quisquam, recusandae maiores ratione quae ipsa sequi!</p>
+
+                    <a href="#" class="block-lib__link">READ MORE</a>
+                </div>
+                <div class="block-lib__item">
+                    <div class="book-preview">
+                        <h3 class="book-preview__title">Daredevils</h3>
+                        <p class="book-preview__subtitle">Books are the best friends</p>
+                        <p class="book-preview__author">- By Emma Anderson</p>
+                    </div>
+                    <h4 class="block-lib__title">Daredevils</h4>
+                    <p class="block-lib__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet harum exercitationem laboriosam quos animi ipsum magni aliquam! Provident accusamus corrupti saepe tempora soluta repellat tempore omnis ex ab, itaque distinctio?</p>
+                    <a href="#" class="block-lib__link">READ MORE</a>
+                </div>
+            </div>
+            <a href="#" class="btn block__browse">Browse all books</a>
+        </div>
+    </section>
+    <section class="block-review">
+        <div class="block-review__ava">
+            <div class="block-review__quote"></div>
+            <img src="img/face.png" alt="ava">
+        </div>
+        <h3 class="block-review__author">Kate Dennings</h3>
+        <p class="block-review__special">Calligraphy Expert</p>
+        <p class="block-review__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, alias dolor ex sapiente maiores ea aspernatur vel officiis quisquam aliquid deleniti natus quis dignissimos exercitationem voluptatum, quidem aperiam esse nisi.</p>
+        <ul class="block-review-control">
+            <li class="block-review-control__item"></li>
+            <li class="block-review-control__item"></li>
+            <li class="block-review-control__item block-review-control__item--long"></li>
+        </ul>
+    </section>
+    <section class="block">
+        <div class="wrap">
+            <div class="block-author">
+                <div class="block-ava">
+                    <div class="block-ava__bg block-ava__bg--left"></div>
+                    <div class="block-ava__img block-ava__img--left"><img src="img/author2.png" alt="2"></div>
+                </div>
+                <div class="block-info block-info--event">
+                    <p class="block-info__author">- Emma Anderson</p>
+                    <p class="block-info__title">Upcoming Events</p>
+                    <p class="block-info__subtitle">Some Upcoming events you might be interested in</p>
+                    <div class="block-event">
+                        <p class="block-event__date">November 21,2018</p>
+                        <h3 class="block-events__title">Book signing - San Francisco, CA</h3>
+                        <p class="block-event__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem necessitatibus, quia placeat explicabo cupiditate libero ipsum ex, excepturi a vitae voluptas consequatur illum tempora quibusdam aspernatur mollitia itaque odit! Tenetur.</p>
+                        <a href="#" class="btn">Register</a>
+                    </div>
+                    <div class="block-event">
+                        <p class="block-event__date">November 21, 2018</p>
+                        <h3 class="block-event__title">Book signing - Los Angeles, CA</h3>
+                        <p class="block-event__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni repudiandae doloribus commodi assumenda doloremque molestiae et fuga debitis exercitationem quam aspernatur omnis quibusdam sint tempore asperiores, placeat, excepturi consectetur cupiditate?</p>
+                        <a href="#" class="btn">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </body>
+    </html>
